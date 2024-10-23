@@ -1,0 +1,12 @@
+syntax = "proto3";
+package pns.pns;
+
+import "gogoproto/gogo.proto";
+import "pns/pns/params.proto";
+
+option go_package = "pns/x/pns/types";
+
+// GenesisState defines the pns module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

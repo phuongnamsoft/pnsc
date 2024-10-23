@@ -1,0 +1,17 @@
+version: 1
+accounts:
+- name: pns
+  coins:
+  - 21000000pns
+  - 21000000pnss
+  mnemonic: arrow human fresh shy same miracle magic chicken number inch assume cheap
+client:
+  typescript:
+    path: ts-client
+  composables:
+    path: vue/src/composables
+  openapi:
+    path: docs/static/openapi.yml
+validators:
+- name: pns
+  bonded: 21000000pnss
