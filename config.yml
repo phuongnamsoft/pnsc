@@ -1,9 +1,7 @@
 version: 1
 accounts:
 - name: pns
-  coins:
-  - 21000000pns
-  - 21000000pnss
+  coins: [21000000pns, 2100000000stake]
   mnemonic: arrow human fresh shy same miracle magic chicken number inch assume cheap
 client:
   typescript:
@@ -14,4 +12,4 @@ client:
     path: docs/static/openapi.yml
 validators:
 - name: pns
-  bonded: 21000000pnss
+  bonded: 2100000000stake
