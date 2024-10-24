@@ -1,0 +1,24 @@
+{
+  "name": "pnsc",
+  "version": "1.0.0",
+  "description": "**pns** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "ignite chain serve",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongnamsoft/pnsc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuongnamsoft/pnsc/issues"
+  },
+  "homepage": "https://github.com/phuongnamsoft/pnsc#readme"
+}
